@@ -91,6 +91,11 @@ sed -i 's/"设置向导"/"向导"/g' `egrep "设置向导" -rl ./`
 
 # 整理固件包时候,删除您不想要的固件或者文件,让它不需要上传到Actions空间(根据编译机型变化,自行调整删除名称)
 cat >"$CLEAR_PATH" <<-EOF
+07.03-Lede-18.06-6.1.95-x86-64-generic-squashfs-combined-efi.vdi
+07.03-Lede-18.06-6.1.95-x86-64-generic-squashfs-combined-efi.vmdk
+07.03-Lede-18.06-6.1.95-x86-64-generic-squashfs-combined.vdi
+07.03-Lede-18.06-6.1.95-x86-64-generic-squashfs-combined.vmdk
+ipk.tar.gz
 packages
 config.buildinfo
 feeds.buildinfo
