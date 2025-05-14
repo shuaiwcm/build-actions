@@ -1,3 +1,74 @@
 CONFIG_TARGET_ipq806x=y
 CONFIG_TARGET_ipq806x_generic=y
 CONFIG_TARGET_ipq806x_generic_DEVICE_linksys_ea8500=y
+CONFIG_PACKAGE_bash=y
+# CONFIG_PACKAGE_coreutils is not set
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_dns2tcp is not set
+# CONFIG_PACKAGE_etherwake is not set
+# CONFIG_PACKAGE_jq is not set
+CONFIG_PACKAGE_kmod-crypto-kpp=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20=y
+CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=y
+CONFIG_PACKAGE_kmod-crypto-lib-curve25519=y
+CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+# CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
+CONFIG_PACKAGE_kmod-udptunnel4=y
+CONFIG_PACKAGE_kmod-udptunnel6=y
+CONFIG_PACKAGE_kmod-wireguard=y
+# CONFIG_PACKAGE_libcares is not set
+# CONFIG_PACKAGE_libev is not set
+CONFIG_PACKAGE_libgmp=y
+# CONFIG_PACKAGE_libmbedtls is not set
+# CONFIG_PACKAGE_libopenssl-legacy is not set
+# CONFIG_PACKAGE_libpcre2 is not set
+CONFIG_PACKAGE_libreadline=y
+CONFIG_PACKAGE_libruby=y
+# CONFIG_PACKAGE_libsodium is not set
+# CONFIG_PACKAGE_libuci-lua is not set
+# CONFIG_PACKAGE_libudns is not set
+CONFIG_PACKAGE_libyaml=y
+# CONFIG_PACKAGE_lua-neturl is not set
+# CONFIG_PACKAGE_luci-app-accesscontrol is not set
+# CONFIG_PACKAGE_luci-app-arpbind is not set
+# CONFIG_PACKAGE_luci-app-autoreboot is not set
+# CONFIG_PACKAGE_luci-app-ddns is not set
+CONFIG_PACKAGE_luci-app-lucky=y
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+CONFIG_PACKAGE_luci-app-timecontrol=y
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+CONFIG_PACKAGE_luci-i18n-lucky-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-timecontrol-zh-cn=y
+CONFIG_PACKAGE_lucky=y
+# CONFIG_PACKAGE_microsocks is not set
+CONFIG_PACKAGE_miniupnpd=y
+# CONFIG_PACKAGE_mosdns is not set
+# CONFIG_PACKAGE_nlbwmon is not set
+# CONFIG_PACKAGE_resolveip is not set
+CONFIG_PACKAGE_ruby=y
+CONFIG_PACKAGE_ruby-bigdecimal=y
+CONFIG_PACKAGE_ruby-date=y
+CONFIG_PACKAGE_ruby-digest=y
+CONFIG_PACKAGE_ruby-enc=y
+CONFIG_PACKAGE_ruby-pstore=y
+CONFIG_PACKAGE_ruby-psych=y
+CONFIG_PACKAGE_ruby-stringio=y
+CONFIG_PACKAGE_ruby-yaml=y
+# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
+# CONFIG_PACKAGE_simple-obfs-client is not set
+# CONFIG_PACKAGE_tcping is not set
+CONFIG_PACKAGE_unzip=y
+# CONFIG_PACKAGE_vlmcsd is not set
+# CONFIG_PACKAGE_vsftpd-alt is not set
+CONFIG_PACKAGE_wireguard-tools=y
+# CONFIG_PACKAGE_xray-core is not set
