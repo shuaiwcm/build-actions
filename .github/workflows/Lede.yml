@@ -26,6 +26,7 @@ on:
         default: 'x86_64'
         type: choice
         options:
+          - 'ea8500'
           - 'armsr_rootfs_tar_gz'
           - 'asus_rt-ac42u'
           - 'd-team_newifi-d2'
